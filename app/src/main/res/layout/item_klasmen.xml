@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableRow
+            android:id="@+id/table_row1"
+            android:background="@android:color/holo_blue_light"
+            android:padding="6dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:text="Team"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:textSize="17sp"
+                android:textStyle="normal"
+                android:text="Pts"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:textSize="17sp"
+                android:textStyle="normal"
+                android:text="Play" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:textSize="17sp"
+                android:textStyle="normal"
+                android:text="W"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:textSize="17sp"
+                android:textStyle="normal"
+                android:text="D"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:textSize="17sp"
+                android:textStyle="normal"
+                android:text="L"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:textSize="17sp"
+                android:textStyle="normal"
+                android:text="GF"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:textSize="17sp"
+                android:textStyle="normal"
+                android:text="GA"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:textSize="17sp"
+                android:textStyle="normal"
+                android:text="GD"/>
+        </TableRow>
+        <TableRow
+            android:id="@+id/table_row"
+            android:padding="6dp">
+
+            <TextView
+                android:id="@+id/name_team"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                tools:text="Liverpool" />
+
+            <TextView
+                android:id="@+id/team_point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:textSize="17sp"
+                android:textStyle="normal"
+                tools:text="40" />
+
+            <TextView
+                android:id="@+id/team_played"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:textSize="17sp"
+                android:textStyle="normal"
+                tools:text="30" />
+
+            <TextView
+                android:id="@+id/team_win"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:textSize="17sp"
+                android:textStyle="normal"
+                tools:text="25" />
+
+            <TextView
+                android:id="@+id/team_draw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:textSize="17sp"
+                android:textStyle="normal"
+                tools:text="3" />
+
+            <TextView
+                android:id="@+id/team_loss"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:textSize="17sp"
+                android:textStyle="normal"
+                tools:text="2" />
+
+            <TextView
+                android:id="@+id/team_gf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:textSize="17sp"
+                android:textStyle="normal"
+                tools:text="40" />
+
+            <TextView
+                android:id="@+id/team_ga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:textSize="17sp"
+                android:textStyle="normal"
+                tools:text="12" />
+
+            <TextView
+                android:id="@+id/team_gd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:textSize="17sp"
+                android:textStyle="normal"
+                tools:text="35" />
+        </TableRow>
+    </TableLayout>
+</androidx.cardview.widget.CardView>
